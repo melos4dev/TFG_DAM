@@ -1,0 +1,24 @@
+ Room dataBase 
+
+Room es una biblioteca de persistencia de datos en Android que proporciona una capa de abstracción sobre SQLite, lo que hace que sea más fácil trabajar con bases de datos en aplicaciones Android.
+
+La base de datos en Room se define mediante una interfaz que especifica las consultas SQL y las tablas que se usarán para almacenar y acceder a los datos. Además, Room permite la definición de entidades, que son las representaciones de las tablas en la base de datos, y también permite la definición de DAOs (objetos de acceso a datos), que proporcionan una interfaz para acceder a la base de datos.
+
+Room también ofrece una serie de características avanzadas, como la capacidad de realizar consultas complejas a la base de datos utilizando LiveData o Flow, la posibilidad de utilizar transacciones y la posibilidad de realizar migraciones de la base de datos.
+
+En general, Room facilita la implementación de una base de datos en aplicaciones Android, proporcionando una abstracción de bajo nivel de SQLite,
+ lo que hace que sea más fácil trabajar con bases de datos y mantener el código.
+
+
+
+
+Retrofit 2.x
+( para conectarte a un api, farebase explicar firebase tores,
+
+Retrofit es una biblioteca de cliente HTTP para Android y Java que facilita la implementación de comunicaciones de red en aplicaciones Android. La versión 2 de Retrofit ofrece una serie de mejoras y características en comparación con la versión anterior.
+
+Retrofit 2 proporciona una interfaz simple para definir solicitudes HTTP y manejar las respuestas recibidas, lo que hace que sea más fácil trabajar con servicios web y APIs. También admite la serialización y deserialización automática de JSON utilizando bibliotecas como Gson y Jackson.
+
+Además, Retrofit 2 ofrece soporte para la autenticación de solicitudes HTTP, el seguimiento de llamadas y la configuración de tiempos de espera. También admite la conversión de respuestas a objetos RxJava Observables, lo que facilita la implementación de comunicaciones de red reactivas y asíncronas en aplicaciones Android.
+
+En resumen, Retrofit 2 es una biblioteca de cliente HTTP fácil de usar y altamente personalizable que simplifica la implementación de comunicaciones de red en aplicaciones Android.
